@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f7f4f4;
+}
+/*navbar*/
+.header{
+    box-shadow: 0px 5px 10px 0px;
+    position: fixed;
+    width: 100%;
+    background-color: #979191;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.menu-items{
+    order: 2;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.menu-items li{
+    list-style: none;
+    font-size: larger;
+}
+.menu-items li a{
+    color: rgb(14, 13, 13);
+}
+.menu-items li a:hover{
+    color: rgb(51, 6, 250);
+    transform: translateY(-5px);
+}
+.logo{
+    font-size: 2rem;
+}
+span{
+    color:rgb(48, 13, 243);
+    font-family: cursive;
+}
+h1{
+    font-family: cursive;
+}
+/* header style ends here */
+main{
+    display: flex;
+    border: 1px solid rgb(122, 121, 120);
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height:90vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(3, 3, 3, 0.5)), url(images/company.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.hero-img{
+    max-width: 670vh;
+    height: auto;
+}
+.content-left{
+    width: 30%;
+}
+main h1{
+    font-family: cursive;
+    font-size: larger;
+}
+main p{
+    font-style: italic;
+    color: #fff;
+}
+.cta{
+    padding:15px 30px;
+    background: rgb(21, 7, 224);
+    color: rgb(246, 245, 250);
+    outline: none;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+/*main style ends here*/
+.come{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.row{
+    width: 400px;
+    height: 400px;
+    /*---background: #000;---*/
+    margin-top: 60px;
+    display: flex;
+    /*--flex-wrap: nowrap;--*/
+}
+.column{
+    margin: 20px;
+    width: 800px;
+    height: 450px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    text-align: center;
+}
+.column img{
+    width:300px;
+    height:200px;
+}
+.column h3{
+    padding: 10px;
+}
+.column p{
+    padding: 10px;
+}
+.column a{
+    background-color: #000000;
+    color: #fff;
+    padding:15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.column:hover{
+    background-color: rgb(62,62,62);
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+/* body content ends here*/
+footer {
+    background-color: #979191;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    width: 100%;
+}
+/*footer style ends here*/
+/*home page style ends here*/
